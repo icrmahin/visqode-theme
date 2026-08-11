@@ -8,6 +8,10 @@
     "name": "Mahin"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icrmahin/visqode-theme.git"
+  },
   "icon": "images/visqode-icon.png",
   "engines": {
     "vscode": "^1.95.0"
