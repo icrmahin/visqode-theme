@@ -1,0 +1,61 @@
+{
+  "name": "visqode-theme",
+  "displayName": "Visqode Theme",
+  "description": "A minimal, monochromatic dark theme family designed for modern software engineering.",
+  "version": "1.0.0",
+  "publisher": "icrmahin",
+  "author": {
+    "name": "Mahin"
+  },
+  "license": "MIT",
+  "icon": "images/visqode-icon.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "minimal",
+    "monochrome",
+    "visqode",
+    "typescript",
+    "javascript",
+    "react",
+    "nextjs",
+    "vite",
+    "react-native",
+    "expo"
+  ],
+  "galleryBanner": {
+    "color": "#0D0D0F",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Visqode Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/visqode-dark-color-theme.json"
+      },
+      {
+        "label": "Visqode Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/visqode-rose-color-theme.json"
+      },
+      {
+        "label": "Visqode Cyan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/visqode-cyan-color-theme.json"
+      },
+      {
+        "label": "Visqode Violet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/visqode-violet-color-theme.json"
+      }
+    ]
+  }
+}
